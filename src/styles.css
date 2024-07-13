@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  overflow: hidden;
+}
+
+.App {
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  transform: scale(1.4);
+}
+
+.wrapper {
+  border: 1px solid rgb(83, 233, 246);
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 40px;
+  font-weight: 700;
+  width: 200px;
+}
+
+.counter {
+  background-color: rgb(83, 233, 246);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 85px;
+}
+
+.instructions {
+  border: 1px solid rgb(83, 233, 246);
+  background-color: black;
+  font-size: 13px;
+  color: rgb(83, 233, 246);
+}
+
+.warning {
+  background-color: black;
+  border: 1px solid rgb(83, 233, 246);
+  color: red;
+  font-size: 15px;
+  padding: 0;
+}
+
+.setting {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(83, 233, 246);
+  font-size: 15px;
+  height: 85px;
+}
+
+.wrapper-inputs {
+  display: flex;
+  background-color: black;
+  color: rgb(83, 233, 246);
+  padding: 0 10px;
+  justify-content: space-between;
+}
+
+.wrapper-inputs input {
+  width: 60px;
+  text-align: center;
+}
+
+.wrapper-inputs input[type="number"]:focus {
+  -moz-appearance: textfield;
+  -webkit-appearance: none;
+  appearance: textfield;
+}
+
+.buttons {
+  padding: 10px;
+  border: 1px solid rgb(83, 233, 246);
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.buttons button {
+  padding-bottom: 0;
+  border: none;
+  background-color: rgb(83, 233, 246);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  padding: 5px 5px 0 5px;
+  border-radius: 5px;
+}
+
+.buttons button:active {
+  background-color: black;
+  color: rgb(83, 233, 246);
+}
+
+.buttons button:disabled {
+  background-color: rgb(2, 99, 108);
+  color: black;
+}
+
+.btn-set {
+  justify-content: center;
+}
